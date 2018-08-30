@@ -1,7 +1,23 @@
-body {
-    background-color:#fcdef5;
+body{
+    font:15px/1.5 courier, monospace, sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#ffdded;
 }
 
-a{ 
-    text-decoration:none;
+/* Global */
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
 }
+
+/* Header **/
+header{
+    background:#fcccf1;
+    color:#000000;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:#dd94cd 3px solid;
+}
+
