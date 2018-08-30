@@ -21,3 +21,18 @@ header{
     border-bottom:#dd94cd 3px solid;
 }
 
+header a{
+    color:#000000;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-size:16px;
+}
+
+header ul{
+    margin:0;
+    padding:0;
+}
+
+header li{
+    float:left;
+}
