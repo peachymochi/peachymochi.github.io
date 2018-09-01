@@ -54,7 +54,7 @@ header nav{
 }
 
 header .highlight, header, current a{
-    color:#ffffff;
+    color:#000000;
     font-weight:bold;
 }
 
@@ -63,8 +63,8 @@ header a:hover{
     font-weight:bold;
 }
 
-/* Showcase */
+/*Showcase*/
 #showcase{
-    min-height:500px;
-    background:url('../images/showcase.jpg') no-repeat;
+    min-height:400px;
+    background:url('../images/showcase3.jpg') no-repeat;
 }
