@@ -126,7 +126,7 @@ header a:hover{
 }
 
 #boxes .box{
-    float: left;
+    margin:0 auto;
     width:30%;
     padding:10px;
     text-align:center;
