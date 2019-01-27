@@ -33,13 +33,13 @@ gameDisplay = pygame.display.set_mode((display_width,display_height))
 #game name/window title 
 pygame.display.set_caption("Snakey")
 
-icon = pygame.image.load("apple.png")
+icon = pygame.image.load("C:/Users/eun/Desktop/apple.png")
 pygame.display.set_icon(icon)
 
 #images
-img = pygame.image.load("snakeHead.png")
-appleimg = pygame.image.load("apple.png")
-bappleimg = pygame.image.load("bapple.png")
+img = pygame.image.load("C:/Users/eun/Desktop/snakeHead.png")
+appleimg = pygame.image.load("C:/Users/eun/Desktop/apple.png")
+bappleimg = pygame.image.load("C:/Users/eun/Desktop/bapple.png")
 
 
 clock = pygame.time.Clock()
