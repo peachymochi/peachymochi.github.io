@@ -18,7 +18,7 @@ void setup(){
   poke = false;
   gameState = -1;
   font2 = createFont("OCR A EXTENDED", 18);
-  font1 = createFont("AR DELANEY", 45);
+  font1 = createFont("Courier New", 38);
   bold = createFont("OCR A EXTENDED", 25);
 
   size(600,600);
@@ -26,11 +26,11 @@ void setup(){
   bgR = loadImage("./img/bgR2.png");
   luma = loadImage("./img/luma.png");
   luma2 = loadImage("./img/luma2.png");
-  costume = luma;
   meteor = loadImage("./img/meteor.png");
   pokeball = loadImage("./img/pokeball.png");
   weapon = loadImage("./img/weapon.png");
   openingBg = loadImage("./img/bg2.png");
+  costume = luma;
   
   cVy = 2;
   cx = 50;
@@ -128,13 +128,13 @@ void draw(){
 if (gameState == 1){
   //button
   textSize(34);
-  text("You Died...", 100, 146);
+  text("You Died...", 200, 230);
   fill(245); //text color
-  rect(90,160,240,45,10); // button background
+  rect(190,235,240,45,10); // button background
   fill(0);
 
 //Restart Game
-  if(mouseX > 90 && mouseY > 160 && mouseX < 330 && mouseY < 205){
+  if(mouseX > 190 && mouseY > 235 && mouseX < 430 && mouseY < 280){
     if(mousePressed){
       cy = 100;
       cVy = 2;
@@ -153,13 +153,13 @@ if (gameState == 1){
 //Hovering over button
     else{
       fill(173, 191, 255);
-      rect(90,160, 240, 45, 10);
+      rect(190,235, 240, 45, 10);
       fill(0);
-      text("Play Again?", 100,196); //button text
+      text("Play Again?", 200,270); //button text
      }
    }
     else{
-      text("Click Me...", 100,196);  //button text
+      text("Click Me...", 200,270);  //button text
     } 
   }
   
@@ -199,7 +199,7 @@ if (gameState == 1){
     fill(0,0,0,151);
     textSize(24);
     textFont(font1);
-    text("Click anywhere to play!",50,150);
+    text("Click anywhere to play!",45,150);
     if(mousePressed && mouseX > 0){
       gameState = 0;
     }
